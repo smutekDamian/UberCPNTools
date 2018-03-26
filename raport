@@ -1,0 +1,176 @@
+CPN Tools state space report for:
+/cygdrive/C/Users/Damian/Desktop/UberCPNTools/uber.cpn
+Report generated: Mon Mar 26 23:06:36 2018
+
+
+ Statistics
+------------------------------------------------------------------------
+
+  State Space
+     Nodes:  35474
+     Arcs:   172496
+     Secs:   214
+     Status: Full
+
+  Scc Graph
+     Nodes:  924
+     Arcs:   41092
+     Secs:   2
+
+
+ Boundedness Properties
+------------------------------------------------------------------------
+
+  Best Integer Bounds
+                             Upper      Lower
+     Group_4'Acceptance_result 1
+                             3          0
+     Group_4'Deciding_process 1
+                             3          0
+     Group_4'Paired 1        2          0
+     Uber'Accepted_Client 1  4          0
+     Uber'Client_with_proposed_price 1
+                             4          0
+     Uber'Clients 1          4          0
+     Uber'Clients_and_rider_in_car 1
+                             2          0
+     Uber'Destinations 1     5          5
+     Uber'Riders 1           5          2
+
+  Best Upper Multi-set Bounds
+     Group_4'Acceptance_result 1
+                         1`(false,("Ania",4.5,"Krowodrza",4.1),("Tad",4.6,"Krowodrza",3.6))++
+1`(false,("Ania",4.5,"Krowodrza",4.1),("Tadek",4.6,"Krowodrza",3.6))++
+1`(false,("Kowalski",4.0,"Stare Miasto",4.2),("Juzio",4.6,"Stare Miasto",3.6))++
+1`(false,("Marek",4.0,"Bronowice",4.2),("Daro",4.0,"Bronowice",4.1))++
+1`(true,("Ania",4.5,"Krowodrza",4.1),("Tad",4.6,"Krowodrza",3.6))++
+1`(true,("Ania",4.5,"Krowodrza",4.1),("Tadek",4.6,"Krowodrza",3.6))++
+1`(true,("Kowalski",4.0,"Stare Miasto",4.2),("Juzio",4.6,"Stare Miasto",3.6))
+     Group_4'Deciding_process 1
+                         1`(("Ania",4.5,"Krowodrza",4.1),("Tad",4.6,"Krowodrza",3.6))++
+1`(("Ania",4.5,"Krowodrza",4.1),("Tadek",4.6,"Krowodrza",3.6))++
+1`(("Kowalski",4.0,"Stare Miasto",4.2),("Juzio",4.6,"Stare Miasto",3.6))++
+1`(("Marek",4.0,"Bronowice",4.2),("Daro",4.0,"Bronowice",4.1))
+     Group_4'Paired 1    1`(("Ania",4.5,"Krowodrza",4.1),("Tad",4.6,"Krowodrza",3.6))++
+1`(("Ania",4.5,"Krowodrza",4.1),("Tadek",4.6,"Krowodrza",3.6))++
+1`(("Kowalski",4.0,"Stare Miasto",4.2),("Juzio",4.6,"Stare Miasto",3.6))
+     Uber'Accepted_Client 1
+                         1`("Ania",4.5,"Krowodrza",4.1)++
+1`("Kowalski",4.0,"Stare Miasto",4.2)++
+1`("Marek",4.0,"Bronowice",4.2)++
+1`("Marysia",3.0,"Nowa Huta",3.2)
+     Uber'Client_with_proposed_price 1
+                         1`((("Ania",4.5,"Krowodrza",4.1),0.0),"Bronowice",false)++
+1`((("Ania",4.5,"Krowodrza",4.1),0.0),"Bronowice",true)++
+1`((("Ania",4.5,"Krowodrza",4.1),0.0),"Nowa Huta",false)++
+1`((("Ania",4.5,"Krowodrza",4.1),0.0),"Nowa Huta",true)++
+1`((("Ania",4.5,"Krowodrza",4.1),0.0),"Ruczaj",false)++
+1`((("Ania",4.5,"Krowodrza",4.1),0.0),"Ruczaj",true)++
+1`((("Ania",4.5,"Krowodrza",4.1),0.0),"Stare Miasto",false)++
+1`((("Ania",4.5,"Krowodrza",4.1),0.0),"Stare Miasto",true)++
+1`((("Kowalski",4.0,"Stare Miasto",4.2),0.0),"Bronowice",false)++
+1`((("Kowalski",4.0,"Stare Miasto",4.2),0.0),"Bronowice",true)++
+1`((("Kowalski",4.0,"Stare Miasto",4.2),0.0),"Krowodrza",false)++
+1`((("Kowalski",4.0,"Stare Miasto",4.2),0.0),"Krowodrza",true)++
+1`((("Kowalski",4.0,"Stare Miasto",4.2),0.0),"Nowa Huta",false)++
+1`((("Kowalski",4.0,"Stare Miasto",4.2),0.0),"Nowa Huta",true)++
+1`((("Kowalski",4.0,"Stare Miasto",4.2),0.0),"Ruczaj",false)++
+1`((("Kowalski",4.0,"Stare Miasto",4.2),0.0),"Ruczaj",true)++
+1`((("Marek",4.0,"Bronowice",4.2),0.0),"Krowodrza",false)++
+1`((("Marek",4.0,"Bronowice",4.2),0.0),"Krowodrza",true)++
+1`((("Marek",4.0,"Bronowice",4.2),0.0),"Nowa Huta",false)++
+1`((("Marek",4.0,"Bronowice",4.2),0.0),"Nowa Huta",true)++
+1`((("Marek",4.0,"Bronowice",4.2),0.0),"Ruczaj",false)++
+1`((("Marek",4.0,"Bronowice",4.2),0.0),"Ruczaj",true)++
+1`((("Marek",4.0,"Bronowice",4.2),0.0),"Stare Miasto",false)++
+1`((("Marek",4.0,"Bronowice",4.2),0.0),"Stare Miasto",true)++
+1`((("Marysia",3.0,"Nowa Huta",3.2),0.0),"Bronowice",false)++
+1`((("Marysia",3.0,"Nowa Huta",3.2),0.0),"Bronowice",true)++
+1`((("Marysia",3.0,"Nowa Huta",3.2),0.0),"Krowodrza",false)++
+1`((("Marysia",3.0,"Nowa Huta",3.2),0.0),"Krowodrza",true)++
+1`((("Marysia",3.0,"Nowa Huta",3.2),0.0),"Ruczaj",false)++
+1`((("Marysia",3.0,"Nowa Huta",3.2),0.0),"Ruczaj",true)++
+1`((("Marysia",3.0,"Nowa Huta",3.2),0.0),"Stare Miasto",false)++
+1`((("Marysia",3.0,"Nowa Huta",3.2),0.0),"Stare Miasto",true)
+     Uber'Clients 1      1`(("Ania",4.5,"Krowodrza",4.1),0.0)++
+1`(("Kowalski",4.0,"Stare Miasto",4.2),0.0)++
+1`(("Marek",4.0,"Bronowice",4.2),0.0)++
+1`(("Marysia",3.0,"Nowa Huta",3.2),0.0)
+     Uber'Clients_and_rider_in_car 1
+                         1`(("Ania",4.5,"Krowodrza",4.1),("Tad",4.6,"Krowodrza",3.6))++
+1`(("Ania",4.5,"Krowodrza",4.1),("Tadek",4.6,"Krowodrza",3.6))++
+1`(("Kowalski",4.0,"Stare Miasto",4.2),("Juzio",4.6,"Stare Miasto",3.6))
+     Uber'Destinations 1 1`"Bronowice"++
+1`"Krowodrza"++
+1`"Nowa Huta"++
+1`"Ruczaj"++
+1`"Stare Miasto"
+     Uber'Riders 1       1`("Daro",4.0,"Bronowice",4.1)++
+1`("Dawid",3.6,"Now Huta",3.6)++
+1`("Juzio",4.6,"Stare Miasto",3.6)++
+1`("Tad",4.6,"Krowodrza",3.6)++
+1`("Tadek",4.6,"Krowodrza",3.6)
+
+  Best Lower Multi-set Bounds
+     Group_4'Acceptance_result 1
+                         empty
+     Group_4'Deciding_process 1
+                         empty
+     Group_4'Paired 1    empty
+     Uber'Accepted_Client 1
+                         empty
+     Uber'Client_with_proposed_price 1
+                         empty
+     Uber'Clients 1      empty
+     Uber'Clients_and_rider_in_car 1
+                         empty
+     Uber'Destinations 1 1`"Bronowice"++
+1`"Krowodrza"++
+1`"Nowa Huta"++
+1`"Ruczaj"++
+1`"Stare Miasto"
+     Uber'Riders 1       1`("Dawid",3.6,"Now Huta",3.6)
+
+
+ Home Properties
+------------------------------------------------------------------------
+
+  Home Markings
+     897 [14574,10074,14606,19674,24190,...]
+
+
+ Liveness Properties
+------------------------------------------------------------------------
+
+  Dead Markings
+     None
+
+  Dead Transition Instances
+     None
+
+  Live Transition Instances
+     All
+
+
+ Fairness Properties
+------------------------------------------------------------------------
+
+  Impartial Transition Instances
+     None
+
+  Fair Transition Instances
+     None
+
+  Just Transition Instances
+     None
+
+  Transition Instances with No Fairness
+     Group_4'Acceptance 1
+     Group_4'Deciding 1
+     Group_4'Matching 1
+     Group_4'Ready_to_drive 1
+     Group_4'Rejection 1
+     Uber'Accept 1
+     Uber'Calculate_price 1
+     Uber'Deny 1
+     Uber'End_of_trip 1
