@@ -686,7 +686,7 @@
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>Calculate price</text>
@@ -760,7 +760,7 @@
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>Accept</text>
@@ -769,8 +769,8 @@
         <binding x="7.200000"
                  y="-3.000000"/>
         <cond id="ID1412687795">
-          <posattr x="-893.000000"
-                   y="-93.000000"/>
+          <posattr x="-898.500000"
+                   y="-95.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -834,7 +834,7 @@
                   filled="false"/>
         <lineattr colour="Black"
                   thick="1"
-                  type="Solid"/>
+                  type="solid"/>
         <textattr colour="Black"
                   bold="false"/>
         <text>Deny</text>
@@ -1746,8 +1746,8 @@ else (client,loc1,false)</text>
         </initmark>
         <port id="ID1412427632"
               type="I/O">
-          <posattr x="-427.000000"
-                   y="338.000000"/>
+          <posattr x="-375.000000"
+                   y="357.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -2963,8 +2963,8 @@ else (false, user, rider)</text>
         </zorder>
       </cpnbinder>
       <cpnbinder id="ID2222"
-                 x="387"
-                 y="123"
+                 x="-6"
+                 y="128"
                  width="1366"
                  height="725">
         <sheets>
@@ -3059,9 +3059,7 @@ else (false, user, rider)</text>
           <IndexNode expanded="false"/>
         </IndexNode>
       </IndexNode>
-      <IndexNode expanded="false">
-        <IndexNode expanded="false"/>
-      </IndexNode>
+      <IndexNode expanded="false"/>
       <IndexNode expanded="true">
         <IndexNode expanded="false">
           <IndexNode expanded="true"/>
