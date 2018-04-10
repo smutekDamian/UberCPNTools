@@ -87,18 +87,18 @@
           <id>CLIENT</id>
           <product>
             <id>USER</id>
-            <id>REAL</id>
+            <id>INT</id>
           </product>
-          <layout>colset CLIENT = product USER * REAL;</layout>
+          <layout>colset CLIENT = product USER * INT;</layout>
         </color>
         <color id="ID1412847860">
           <id>CLIENT_WITH_DRIVE</id>
           <product>
             <id>CLIENT</id>
             <id>LOCALIZATION</id>
-            <id>REAL</id>
+            <id>INT</id>
           </product>
-          <layout>colset CLIENT_WITH_DRIVE = product CLIENT * LOCALIZATION * REAL;</layout>
+          <layout>colset CLIENT_WITH_DRIVE = product CLIENT * LOCALIZATION * INT;</layout>
         </color>
         <color id="ID1412467430">
           <id>RIDER</id>
@@ -139,9 +139,9 @@
           <product>
             <id>CLIENT</id>
             <id>LOCALIZATION</id>
-            <id>REAL</id>
+            <id>INT</id>
           </product>
-          <layout>colset CLIENT_WITH_PRICE = product CLIENT * LOCALIZATION * REAL;</layout>
+          <layout>colset CLIENT_WITH_PRICE = product CLIENT * LOCALIZATION * INT;</layout>
         </color>
         <var id="ID1412327372">
           <type>
@@ -188,10 +188,10 @@
         </var>
         <var id="ID1412694111">
           <type>
-            <id>REAL</id>
+            <id>INT</id>
           </type>
           <id>price</id>
-          <layout>var price: REAL;</layout>
+          <layout>var price: INT;</layout>
         </var>
         <var id="ID1412342452">
           <type>
@@ -245,11 +245,11 @@
                  h="46.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
-        <marking x="77.409356"
-                 y="2.356251"
+        <marking x="-14.000000"
+                 y="0.000000"
                  hidden="false">
-          <snap snap_id="0"
-                anchor.horizontal="3"
+          <snap snap_id="1"
+                anchor.horizontal="1"
                 anchor.vertical="2"/>
         </marking>
         <type id="ID1412323420">
@@ -268,7 +268,7 @@
         </type>
         <initmark id="ID1412323421">
           <posattr x="-873.000000"
-                   y="421.000000"/>
+                   y="407.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -278,10 +278,8 @@
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">1` ((&quot;Ania&quot;, 4.5,(&quot;Krowodrza&quot;), 4.1), 10.0) ++
-1 ` ((&quot;Marek&quot;,4.0, (&quot;Bronowice&quot;), 4.2), 4.0) ++
-1` ((&quot;Marysia&quot;, 3.0, (&quot;Nowa Huta&quot;), 3.2), 20.0) ++
-1` ((&quot;Kowalski&quot;, 4.0, (&quot;Stare Miasto&quot;), 4.2), 80.0)</text>
+                version="4.0.0">1` ((&quot;Ania&quot;, 4.5,(&quot;Krowodrza&quot;), 4.1), 4) ++
+1 ` ((&quot;Marek&quot;,4.0, (&quot;Bronowice&quot;), 4.2), 2)</text>
         </initmark>
       </place>
       <place id="ID1412323467">
@@ -323,7 +321,7 @@
         </type>
         <initmark id="ID1412323469">
           <posattr x="-652.000000"
-                   y="-110.903113"/>
+                   y="-89.903113"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -334,10 +332,7 @@
                     bold="false"/>
           <text tool="CPN Tools"
                 version="4.0.0">1 `(&quot;Daro&quot;,4.0,(&quot;Bronowice&quot;),4.1) ++
-1 `(&quot;Tadek&quot;,4.6,(&quot;Krowodrza&quot;),3.6) ++
-1 `(&quot;Juzio&quot;,4.6,(&quot;Stare Miasto&quot;),3.6) ++
-1 `(&quot;Dawid&quot;,3.6,(&quot;Now Huta&quot;),3.6) ++
-1 `(&quot;Tad&quot;,4.6,(&quot;Krowodrza&quot;),3.6)</text>
+1 `(&quot;Tadek&quot;,4.6,(&quot;Krowodrza&quot;),3.6)</text>
         </initmark>
       </place>
       <place id="ID1412372920">
@@ -356,12 +351,12 @@
                  h="40.000000"/>
         <token x="-10.000000"
                y="0.000000"/>
-        <marking x="0.000000"
-                 y="0.000000"
+        <marking x="15.315632"
+                 y="63.618777"
                  hidden="false">
           <snap snap_id="0"
-                anchor.horizontal="0"
-                anchor.vertical="0"/>
+                anchor.horizontal="1"
+                anchor.vertical="2"/>
         </marking>
         <type id="ID1412372921">
           <posattr x="-325.000000"
@@ -431,7 +426,7 @@
         </type>
         <initmark id="ID1412658624">
           <posattr x="-1024.500000"
-                   y="332.000000"/>
+                   y="318.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
                     filled="false"/>
@@ -441,9 +436,7 @@
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">1`&quot;Bronowice&quot; ++
-1 `&quot;Krowodrza&quot; ++
-1 `&quot;Stare Miasto&quot; ++
+                version="4.0.0">1 `&quot;Stare Miasto&quot; ++
 1`  &quot;Ruczaj&quot; ++
 1` &quot;Nowa Huta&quot;</text>
         </initmark>
@@ -786,7 +779,7 @@
         <binding x="7.200000"
                  y="-3.000000"/>
         <cond id="ID1412664656">
-          <posattr x="-1050.000000"
+          <posattr x="-1122.000000"
                    y="158.000000"/>
           <fillattr colour="White"
                     pattern="Solid"
@@ -797,7 +790,7 @@
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">[loc1 &lt;&gt; #3(#1(client))]</text>
+                version="4.0.0">[loc1 &lt;&gt; #3(#1(client)) andalso #2(client) &gt; 0]</text>
         </cond>
         <time id="ID1412663527">
           <posattr x="-833.605249"
@@ -1192,7 +1185,7 @@
           <textattr colour="Black"
                     bold="false"/>
           <text tool="CPN Tools"
-                version="4.0.0">(client, loc1, (erlang(2,0.5)))</text>
+                version="4.0.0">(client, loc1, bernoulli(0.5))</text>
         </annot>
       </arc>
       <arc id="ID1412692400"
@@ -1672,8 +1665,6 @@
       <hguideline id="ID1412383944"
                   y="37.903113">
         <guideline_elm idref="ID1412323467"/>
-        <guideline_elm idref="ID1412819096"/>
-        <guideline_elm idref="ID1412819097"/>
       </hguideline>
       <hguideline id="ID1412384028"
                   y="166.000000"/>
@@ -2854,22 +2845,7 @@ else (false, client, rider)</text>
           <text>&lt;same as model&gt;</text>
         </value>
       </option>
-      <option name="extensions.10001.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10002.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10005.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10004.enable">
+      <option name="extensions.10006.enable">
         <value>
           <boolean>true</boolean>
         </value>
@@ -2879,7 +2855,22 @@ else (false, client, rider)</text>
           <boolean>true</boolean>
         </value>
       </option>
-      <option name="extensions.10006.enable">
+      <option name="extensions.10002.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10001.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10004.enable">
+        <value>
+          <boolean>true</boolean>
+        </value>
+      </option>
+      <option name="extensions.10005.enable">
         <value>
           <boolean>true</boolean>
         </value>
@@ -3088,8 +3079,8 @@ else (false, client, rider)</text>
                  height="857">
         <sheets>
           <cpnsheet id="ID1412430163"
-                    panx="-362.250000"
-                    pany="24.100000"
+                    panx="-414.250000"
+                    pany="64.100000"
                     zoom="0.830079"
                     instance="ID1412427592">
             <zorder>
@@ -3097,8 +3088,8 @@ else (false, client, rider)</text>
             </zorder>
           </cpnsheet>
           <cpnsheet id="ID2215"
-                    panx="211.987500"
-                    pany="21.675000"
+                    panx="377.987500"
+                    pany="14.675000"
                     zoom="0.848806"
                     instance="ID2149">
             <zorder>
